@@ -1,5 +1,6 @@
 ---
 classes:
   - 'profile::timesync'
+  - 'profile::firewall'
 
 profile::timesync::servers: [ 'ca.pool.ntp.org' ]
