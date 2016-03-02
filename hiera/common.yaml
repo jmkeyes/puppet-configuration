@@ -1,10 +1,5 @@
 ---
 classes:
-  - ntp
+  - 'profile::timesync'
 
-ntp::servers:
-  - ca.pool.ntp.org
-
-ntp::restrict:
-  - 127.0.0.1
-
+profile::timesync::servers: [ 'ca.pool.ntp.org' ]
